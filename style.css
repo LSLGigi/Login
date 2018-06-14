@@ -1,0 +1,141 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding-top:4em;
+    font-weight:400;
+    color:#222222;
+    font-size:2em;
+}
+
+body {
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+     background-image:url(images/bg3.jpg);
+    font-family:Arial, Helvetica, sans-serif;
+    background-size:cover;
+    min-height:1050px;
+}
+.bg::-webkit-scrollbar{
+    display:none;
+}
+.login-form {
+    background:#2B2B36;
+    position: relative;
+    width:30%;
+    margin:3% auto 0 auto;
+    text-align:center;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -o-border-radius:15px;
+    border-radius:15px;
+}
+
+.close {
+    background:url(images/close.png) no-repeat 0px 0px;
+    cursor:pointer;
+    width:20px;
+    height:20px;
+    position:absolute;
+    left:20px;
+    top:20px;
+}
+
+.head-info{
+    padding:5px 0;
+    background:#23232e;
+    height:50px;
+    text-align:center;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+label.lbl-1 {
+    display:block;
+    float:right;
+    border-radius:50%;
+    background:#f1c85f;
+    width:20px;
+    height:20px;
+    margin:16px 10px 0 0;
+}
+
+label.lbl-2 {
+    display:block;
+    float:right;
+    border-radius:50%;
+    background:#6756ea;
+    width:20px;
+    height:20px;
+    margin:16px 10px 0 0;
+}
+
+label.lbl-3 {
+    display:block;
+    float:right;
+    border-radius:50%;
+    background:#dd3e3e;
+    width:20px;
+    height:20px;
+    margin:16px 10px 0 0;
+}
+
+.clear {
+    clear:both;
+}
+
+.avtar {
+    margin:2em 0 0;
+}
+
+input[type="text"]{
+    width:70%;
+    padding:1em 2em 1em 3em;
+    color:#9199aa;
+    background:url(images/adm.png) no-repeat 10px 15px;
+    outline:none;
+    border:none;
+    border-bottom:1px solid #484856;
+    margin-top:2em;
+    font-size:18px;
+    font-weight:100;
+}
+
+input[type="password"]{
+    width:70%;
+    padding:1em 2em 1em 3em;
+    color:#9199aa;
+    background:url(images/key.png) no-repeat 10px 23px;
+    outline:none;
+    border:none;
+    border-bottom:1px solid #484856;
+    margin-bottom:3em;
+    font-size:18px;
+    font-weight:100;
+}
+
+.key {
+    background:url(images/pass.png) no-repeat 447px 17px;
+}
+
+input[type="submit"] {
+    width:100%;
+    padding:18px 0;
+    border:none;
+    outline:none;
+    color:#fff;
+    background:#3ea751;
+    fontsize:30px;
+    cursor:pointer;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+
+input[type="submit"]:hover {
+    background:#ff2a75;
+}
+
